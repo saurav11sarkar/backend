@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Subscribe to Saurav Sarkar</h2>
+    <ul>
+        <% products.map((product) => { %>
+            <li><p>Title: <%= product.title %></p></li>
+            <button><%= product.price %></button>
+        <% }); %>
+    </ul>
+</body>
+</html>

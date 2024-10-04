@@ -1,0 +1,6 @@
+-/t/:ticketid -> get, pash, delete
+-/u/:username -> get
+-/sell -> post
+-/bulk -> post
+-/draw -> get
+-/ -> get
